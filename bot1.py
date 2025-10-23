@@ -25,7 +25,7 @@ def start(msg: telebot.types.Message):
           f"Продолжительность: {aud.duration / 60} мин.\n"
           f"Исполнитель: {aud.performer}\n"
           f"Name: {aud.title}\n"
-          f"Размер файла: {aud.file_size / 1024000} МБайт")
+          f"Size файла: {aud.file_size / 1024000} МБайт")
 
 
 @bot.message_handler(content_types=["photo"])
